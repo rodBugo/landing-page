@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 8px 0px;
+    padding-bottom: 90px;
 }
 
 #header-logo {
@@ -40,5 +41,42 @@ a {
 .hero-content {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding-bottom: 32px;
+}
+
+.hero-text {
+    max-width: 450px;
+    margin-left: 200px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    background-color: gray;
+    height: 250px;
+    width: 515px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    margin-right: 200px;
+}
+
+#hero-button {
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    font-weight: 900;
 }
