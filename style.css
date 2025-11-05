@@ -6,6 +6,7 @@ body {
 .hero-container {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-bottom: 100px;
 }
 
 /************* Hero Header Section *************/
@@ -79,4 +80,42 @@ a {
     border: 1px solid #3882F6;
     color: white;
     font-weight: 900;
+}
+
+/************* Info Header Section *************/
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+/************* Info Content Section *************/
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image-container,
+.text {
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-image-container {
+    width: 149px;
+    height: 148px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 8px;
 }
