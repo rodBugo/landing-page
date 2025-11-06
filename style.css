@@ -83,6 +83,9 @@ a {
 }
 
 /************* Info Header Section *************/
+.info-container {
+    padding-bottom: 100px;
+}
 .info-header {
     text-align: center;
     font-size: 36px;
@@ -118,4 +121,29 @@ a {
     border: 3px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 8px;
+}
+
+/************* Quote Content Section *************/
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 820px;
+}
+
+.quote-author {
+    font-weight: 700;
+    margin-left: 500px;
+    margin-top: -50px;
+    font-size: 25px;
 }
