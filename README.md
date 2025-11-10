@@ -2,8 +2,6 @@
 
 For this project I will be recreating a landing page from a given image using only HTML and CSS. The styling requirements are also given such as font family type, weight, and size, as well as colors to be used. 
 
-![Landing Page Preview](./screenshot.png)
-
 ---
 
 ## ✨ Features
